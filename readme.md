@@ -8,7 +8,7 @@ A Streamlit-based tool that converts context-free grammars in Backus-Naur Form (
 * **NDFA to DFA Conversion** : Converts the generated NDFA to a Deterministic Finite Automaton (DFA).
 * **DFA Minimization** : Minimizes the DFA using the Myhill-Nerode theorem.
 * **Visualization** : Displays the structure of the NDFA, DFA, and minimized DFA using Graphviz.
-* **String Testing** : AllInstall the required packages:ows users to check if a string is accepted by the minimized DFA.
+* **String Testing** : Users to check if a string is accepted by the minimized DFA.
 
 ## Tech Stack
 
