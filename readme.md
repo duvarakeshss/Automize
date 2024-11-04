@@ -27,4 +27,5 @@ A Streamlit-based tool that converts context-free grammars in Backus-Naur Form (
 
 #### Install the required packages:
 
-``pip install streamlit graphviz``
+```bash
+pip install streamlit graphviz```
