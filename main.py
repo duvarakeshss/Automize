@@ -2,6 +2,7 @@ import streamlit as st
 from collections import defaultdict, deque
 import graphviz
 
+
 # Function to convert grammar to NDFA
 def grammar_to_ndfa(grammar):
     rules = grammar.split(":")  # Split productions by colon
@@ -188,6 +189,7 @@ def visualize_automaton(automaton, title):
 
     return dot
 
+
 # Streamlit UI
 st.title("Grammar to DFA/NDFA Minimization Tool")
 
@@ -223,6 +225,7 @@ if st.button("Add Production"):
             st.session_state.grammar_input = new_production  # For the first production
         st.success("Production added!")
         st.experimental_rerun()  # Rerun to refresh the UI with updated grammar
+
 
 # Process input on button click
 if st.button("Convert Grammar"):
@@ -284,6 +287,7 @@ if st.button("Test String"):
 # Display the test result
 if st.session_state.test_result:
     st.success(st.session_state.test_result)
+
 
 # Notes for implementation details
 st.markdown("""
