@@ -36,7 +36,7 @@ pip install streamlit graphviz
   ```bash
   git clone https://github.com/duvarakeshss/Automize
   ```
-* **Run the Streamlit app:**
+* **Run the Streamlit app :**
   ```bash
     streamlit run main.py
   ```
