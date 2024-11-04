@@ -31,7 +31,7 @@ A Streamlit-based tool that converts context-free grammars in Backus-Naur Form (
 ```bash
 pip install streamlit graphviz
 ```
-####Running the Application
+#### Running the Application
 * **Clone the repository :**
   ```bash
   git clone https://github.com/duvarakeshss/Automize
