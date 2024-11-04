@@ -18,6 +18,7 @@ A Streamlit-based tool that converts context-free grammars in Backus-Naur Form (
 
 ## Getting Started
 
+
 ### Prerequisites
 
 * **Python** 3.7+
@@ -28,4 +29,15 @@ A Streamlit-based tool that converts context-free grammars in Backus-Naur Form (
 #### Install the required packages:
 
 ```bash
-pip install streamlit graphviz```
+pip install streamlit graphviz
+```
+####Running the Application
+* **Clone the repository :**
+  ```bash
+  git clone https://github.com/duvarakeshss/Automize
+  ```
+* **Run the Streamlit app:**
+  ```bash
+    streamlit run main.py
+  ```
+  
